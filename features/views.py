@@ -19,7 +19,7 @@ from .serializers import DutchMunicipalitySerializer, ParkSerializer
 
 class FeaturePagination(PageNumberPagination):
 
-    page_size = 10  # Limit to 10 features per page
+    page_size = 100  # Limit to 100 features per page
     page_size_query_param = 'page_size'
     max_page_size = 1000
 
