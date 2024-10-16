@@ -49,8 +49,8 @@ Fill in the values.
 
 6. Test the Script and the endpoints
 	- The script is run as a django command (from the directory with manage.py): 
-	``` Python manage.py loadgeojson <Token> ```
-		- It can be easier to save the token as a variable and run: ``` Python manage.py loadgeojson $Token ```
+	``` Python manage.py load_geojson <Token> ```
+		- It can be easier to save the token as a variable and run: ``` Python manage.py load_geojson $Token ```
 
 	- Get all municipalities endpoint: http://127.0.0.1:8000/api/features/dutch_municipality 
 		- Pages can be specified like so: http://127.0.0.1:8000/api/features/dutch_municipality/?page=1 
